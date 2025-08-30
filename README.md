@@ -21,12 +21,12 @@ This repository contains a machine learning pipeline for identifying key genes i
 - **Top Gene**: Os10g0417600 (highest MeanDecreaseGini)
 ## Visualizations
 ### ROC Curve
-![ROC Curve](figures/roc_curve_ggplot.png)
-![ROC Curve](figures/roc_curve_ggplot2.png)
+![ROC Curve](roc_curve_ggplot.png)
+![ROC Curve](roc_curve_ggplot2.png)
 This curve shows the model's ability to distinguish between control and stress samples.  
 AUC ≈ 1.00 indicates high classification performance, though overfitting is likely due to small sample size.
 ### Feature Importance
-![Top 20 Important Genes](figures/feature_importance.png)
+![Top 20 Important Genes](feature_importance.png)
 Os10g0417600 was identified as the most influential gene based on MeanDecreaseGini.  
 This plot ranks the top 20 genes contributing to model decisions.
 ## Limitations
